@@ -1,0 +1,240 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    min-width:1000px;
+    width:100%;
+    height:100%;
+    position:relative;
+    overflow: hidden;
+}
+.bg{
+    width:100%;
+    position:absolute;
+    top:0;left:0;
+    z-index: -1;
+    overflow-x:hidden;
+}
+.bg img{
+    display:block;
+    width:130%;
+    min-width:1600px;
+    margin-left: -15%;
+}
+
+.header{
+    width:100%;
+    height:30px;
+    background:rgba(15,25,50,.3);
+}
+.header .left{
+    float: left;
+}
+.header .left .header-font{
+    font-size: 12px;
+    color:#fff;
+    margin-left: 13px;
+    line-height:30px;
+}
+.header .right{
+    float:right;
+}
+.header .right .header-r-font{
+    font-size: 13px;
+    font-weight:bold;
+    color:#fff;
+    margin-right: 13px;
+    line-height:30px;
+}
+.header .right .more{
+    width:80px;
+    height:30px;
+    background:#398bfb;
+    color: #fff;
+    font-size:12px;
+    text-align: center;
+    line-height: 30px;
+    float: right;
+}
+.container{
+    width:100%;
+
+}
+.container .title{
+    width:270px;
+    margin:auto;
+    margin-top:50px;
+}
+.container .title img{
+    display:block;
+    width:100%;
+}
+.container .search{
+    width:600px;
+    height:35px;
+    margin:auto;
+}
+.container .search input{
+    width:500px;
+    height:100%;
+    float: left;
+    border:0px;
+}
+.container .search .btn{
+    width:100px;
+    height:100%;
+    text-align: center;
+    line-height:35px;
+    float: right;
+    background-image: url("../img/skin_dark.png");
+    background-position: -206px 0;
+}
+.container .search{
+    box-shadow: 1px 1px 1px #999;
+}
+.container .card{
+    width:900px;
+    margin:auto;
+    margin-top: 100px;
+    height:400px;
+}
+.container .card .card-bg{
+    background:rgba(255,255,255,.5);
+}
+.container .card .card-title{
+    width:100%;
+    height: 40px;
+    font-size: 14px;
+    border-bottom:1px solid rgba(226, 226, 226, .4);
+}
+.container .card .card-title .card-title-gz{
+    width:100px;
+    height:40px;
+    padding-right: 44px;
+    float: left;
+}
+.container .card .card-title .card-title-gz .icon{
+    margin: 11px 0 0 20px;
+    width: 20px;
+    height: 18px;
+    background:url("../img/card_setts.png");
+    background-position: -15px 1px;
+    float: left;
+}
+.container .card .card-title .card-title-gz .font{
+    float: right;
+    line-height:40px;
+}
+.container .card .card-title .card-title-tabs{
+    width:706px;
+    height:40px;
+    float: left;
+}
+.container .card .card-title .card-title-tabs .card-title-tab{
+    float: left;
+    height:40px;
+    min-width: 88px;
+    text-align: center;
+    line-height:40px;
+}
+.container .card .card-title .card-title-tabs .current{
+    font-weight:bold;
+    background:rgba(255,255,255,.2);
+}
+.container .card .card-title .card-title-tabs .card-title-rest{
+    width:354px;
+    float: left;
+    height:40px;
+}
+.container .card .card-title .setting{
+    width:50px;
+    height:40px;
+    float: right;
+}
+.container .card .card-title .setting .setting-icon{
+    width: 20px;
+    height: 18px;
+    background:url("../img/card_setts.png");
+    background-position: -121px -49px;
+    margin: auto;
+    margin-top: 10px;
+}
+.container .card .card-content{
+    height:360px;
+}
+.container .card .card-content .card-photo-frame{
+    width:50%;
+    float: left;
+    height:360px;
+}
+.container .card .card-content .card-photo-frame .card-photo-item{
+    margin:10px 0 0 22px;
+    height: 323px;
+    width:195px;
+    float:left;
+    position:relative;
+}
+.container .card .card-content .card-photo-frame .card-photo-item .card-tag{
+    width:42px;
+    height:42px;
+    position:absolute;
+    z-index: 1;
+    background: url("../img/video_corner.png");
+    background-position:-126px 0;
+    right:0;
+
+
+}
+.container .card .card-content .card-photo-frame .card-photo-item img{
+    width:100%;
+}
+.container .card .card-content .card-photo-frame .card-photo-item .car-item-title{
+    padding-left:10px;
+    padding-top: 5px;
+    font-size:14px;
+}
+.container .card .card-content .card-photo-frame .card-photo-item .car-item-title a{
+    color:#999;
+    text-decoration: none;
+}
+.container .card .card-content .card-photo-frame .card-photo-item .car-item-title a:hover{
+    text-decoration:underline;
+    color:blue;
+}
+.container .card .card-content .card-photo-frame .card-photo-item .score{
+    padding-left: 10px;
+    color:#999;
+    font-size:12px;
+    line-height:20px;
+}
+.container .card .card-content .card-photo-frame .card-photo-item .star{
+    width:65px;
+    height:13px;
+    background: url("../img/star.png");
+    background-repeat: repeat-x;
+    float:left;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.container .card .card-content .card-photo-frame .card-photo-item .star .star-up{
+    width:65px;
+    height:13px;
+    background: url("../img/star.png");
+    background-repeat: repeat-x;
+    background-position: 0 -13px;
+}
+.container .card .card-content .card-photo-frame .card-photo-s-item{
+    margin: 10px 14px 0 10px;
+    width:195px;
+    height:150px;
+    padding-bottom: 6px;
+    float: left;
+}
+.container .card .card-content .card-photo-frame .card-photo-s-item .card-title1{
+    margin-top: 5px;
+    color:#666;
+    font-size:13px;
+    padding:0 10px;
+    line-height:20px;
+}
